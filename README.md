@@ -1,31 +1,24 @@
-# 🔍 OpenSearch React Search App
+# Frontend - Help Article Search
 
-This is a React-based search application that connects to an OpenSearch backend to retrieve and display search results with pagination.
+A responsive React application to search and display help articles with clean UI, pagination, and URL-based navigation.
 
-## ✨ Features
+## Tech Stack
+- React (TypeScript)
+- CSS Modules
+- Fetch API
+- History API (Back/Forward Navigation)
 
-- 🔎 Keyword search using OpenSearch `_search` endpoint
-- 📄 Pagination (default 3-page window)
-- 🔄 Browser back/forward navigation support
-- ❌ Clear search with a cancel (`✕`) button
-- 🎨 Styled interface with light blue background
-- ⚡ Fast client-side navigation with `useEffect` and state updates
+## Getting Started
+1. Install dependencies:
+- npm install
 
----
+2. Start the development server:
+- npm start
+- Runs on: `http://localhost:3000`
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v18+ recommended)
-- NPM or Yarn
-- A running OpenSearch instance with an index named `my-index`
-
----
-
-### 🔧 Installation
-
-```bash
-git clone https://github.com/your-username/react-search-app.git
-cd react-search-app
-npm install
+## Features
+- Search help articles by keyword
+- Paginate through results
+- Highlight available pagination buttons
+- Use browser history to navigate back/forward
+- Clear search instantly
